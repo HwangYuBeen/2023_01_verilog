@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\2023winter_vacation\Toy_project(1)\lab06_2input_XOR\sim\modelsim
+vtestbench
+!i10b 1
+Z1 !s100 Ad2PJl6iJbITdW7c:IVZE0
+Z2 IF[AQbFRO4B0o^Y8WfR8c:2
+Z3 VhGfW:390DM[oDMzegDH9`2
+Z4 dC:\2023winter_vacation\Toy_project(1)\lab06_2input_XOR\sim\modelsim
+Z5 w1672641055
+Z6 8../../testbench/testbench.v
+Z7 F../../testbench/testbench.v
+L0 5
+Z8 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z9 !s108 1672641272.507000
+Z10 !s107 ../../testbench/testbench.v|../../src/rtl/XOR_gate.v|
+Z11 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+vXOR_gate
+!i10b 1
+!s100 h[mH1AezJjAGkDA8BS1P[2
+If`K8cn3cRafjdfOe@6Eh91
+V4^REQ`9O60TO@Cd4VEae70
+R4
+w1672641259
+8../../src/rtl/XOR_gate.v
+F../../src/rtl/XOR_gate.v
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+n@x@o@r_gate

@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\2023winter_vacation\Toy_project(3)\lab08_binary_down_counter\sim\modelsim
+vbinary_down_counter
+!i10b 1
+Z1 !s100 Pc[D@lKYMXUF`alofge4M0
+Z2 IP=b70czJO?0I]TMB9X>cX0
+Z3 VJLN;;6KKi`6SRnaVigC:g0
+Z4 dC:\2023winter_vacation\Toy_project(3)\lab08_binary_down_counter\sim\modelsim
+Z5 w1673319997
+Z6 8../../src/rtl/binary_down_counter.v
+Z7 F../../src/rtl/binary_down_counter.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z9 !s108 1673323883.411000
+Z10 !s107 ../../testbench/testbench.v|../../src/rtl/binary_down_counter.v|
+Z11 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+vtestbench
+!i10b 1
+Z12 !s100 0H=Vb;`<gfS8=AkFV7XRE1
+Z13 ID[:bFdX6LhFL59C^2<Y<n3
+Z14 VhGfW:390DM[oDMzegDH9`2
+R4
+Z15 w1673319323
+Z16 8../../testbench/testbench.v
+Z17 F../../testbench/testbench.v
+L0 5
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0

@@ -1,0 +1,63 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\2023winter_vacation\Toy_project(1)\lab08_3input_NAND\sim\modelsim
+vcoin
+Z1 ISo`eFd6SM0^fE=h?Q7`Dc3
+Z2 VIP3W?YDSZzYzPfZ5F5h890
+Z3 dC:\2023winter_vacation\Toy_project(1)\lab08_3input_NAND\sim\modelsim
+Z4 w1672626624
+Z5 8../../src/rtl/NAND_gate.v
+Z6 F../../src/rtl/NAND_gate.v
+L0 6
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s108 1672642270.033000
+Z9 !s107 ../../testbench/testbench.v|../../src/rtl/NAND_gate.v|
+Z10 !s90 -reportprogress|300|-f|run.f|
+o-O0
+!i10b 1
+Z11 !s100 3HhAkPPgN3HQfFVfmTSV=2
+!s85 0
+!s101 -O0
+vNAND_gate
+!i10b 1
+!s100 JoYUiBFZGOWOB1m@<86=h1
+IC1?mj9S6fCo<Dn5nB[9JJ3
+Vh7j;ZZHW^zKUO58?o8hal0
+R3
+w1672642277
+R5
+R6
+L0 3
+R7
+r1
+!s85 0
+31
+Z12 !s108 1672642285.390000
+Z13 !s107 ../../testbench/testbench.v|../../src/rtl/NAND_gate.v|
+R10
+!s101 -O0
+o-O0
+n@n@a@n@d_gate
+vtestbench
+!i10b 1
+Z14 !s100 ZL[PN=EBUhmfbDNKJ43AC0
+Z15 Ile8Yg2iZ<O`g]oQJEM>UD1
+Z16 VhGfW:390DM[oDMzegDH9`2
+R3
+Z17 w1672642260
+Z18 8../../testbench/testbench.v
+Z19 F../../testbench/testbench.v
+L0 5
+R7
+r1
+!s85 0
+31
+R12
+R13
+R10
+!s101 -O0
+o-O0

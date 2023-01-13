@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\2023winter_vacation\Toy_project(3)\lab10_johnson_counter\sim\modelsim
+vjohnson_counter
+!i10b 1
+!s100 3A3VL2ka:o:aAM[NNbc5d1
+IbCbD<]1E?F[Z5bi3<Sk8[2
+Z1 VjYW8R?Fkm[V04M4GnNf7_3
+Z2 dC:\2023winter_vacation\Toy_project(3)\lab10_johnson_counter\sim\modelsim
+w1673326176
+Z3 8../../src/rtl/johnson_counter.v
+Z4 F../../src/rtl/johnson_counter.v
+L0 1
+Z5 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z6 !s108 1673326182.778000
+Z7 !s107 ../../testbench/testbench.v|../../src/rtl/johnson_counter.v|
+Z8 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+vtestbench
+!i10b 1
+Z9 !s100 eAU53H:^^@I@>a@iSm60D1
+Z10 ICzKZ;d<Tb`;PV7NORe?Ce2
+Z11 VhGfW:390DM[oDMzegDH9`2
+R2
+Z12 w1673325679
+Z13 8../../testbench/testbench.v
+Z14 F../../testbench/testbench.v
+L0 5
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!s101 -O0
+o-O0

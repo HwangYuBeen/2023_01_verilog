@@ -1,0 +1,83 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\2023winter_vacation\Toy_project(1)\lab03_2input_AND\sim\modelsim
+vAND_gate
+Z1 !s100 Uj:IQ?KnhajbImVNWzffn2
+Z2 I0_eDV9Z7bd1PTEC`6dZlG2
+Z3 VM3cJhFe<NNU;X07E^HPgK0
+Z4 dC:\2023winter_vacation\Toy_project(1)\lab03_2input_AND\sim\modelsim
+Z5 w1672630798
+Z6 8../../src/rtl/AND_gate.v
+Z7 F../../src/rtl/AND_gate.v
+L0 3
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s108 1672631172.684000
+Z10 !s107 ../../testbench/testbench.v|../../src/rtl/AND_gate.v|
+Z11 !s90 -reportprogress|300|-f|run.f|
+o-O0
+Z12 n@a@n@d_gate
+!i10b 1
+!s85 0
+!s101 -O0
+vNAND_gate
+!i10b 1
+!s100 [Z8@0cd`K<5M@OQJ0zLX[3
+IcoMA_ag9:a_^E7n^Vl]7l2
+Vb1aZ<zf@Z4>2JG]m[LhDF1
+R4
+w1672639813
+R6
+R7
+L0 3
+R8
+r1
+!s85 0
+31
+Z13 !s108 1672639853.030000
+Z14 !s107 ../../testbench/testbench.v|../../src/rtl/AND_gate.v|
+R11
+!s101 -O0
+o-O0
+n@n@a@n@d_gate
+vnot_gate
+Z15 !s100 2z594KZ=Gh[2CNPMA@4=D3
+Z16 Id40o^cF^_G8NWN3@Zg?D21
+Z17 VUQfziR7Ym^bzL6lblVVY11
+R4
+Z18 w1672630163
+R6
+R7
+L0 3
+R8
+r1
+31
+Z19 !s108 1672630768.136000
+R10
+R11
+o-O0
+!i10b 1
+!s85 0
+!s101 -O0
+vtestbench
+!i10b 1
+!s100 >IK2EUm][9Ja>fb5fe7M`2
+I6zR?Z7B1cYGalVmRSA<;l3
+Z20 VhGfW:390DM[oDMzegDH9`2
+R4
+w1672639824
+Z21 8../../testbench/testbench.v
+Z22 F../../testbench/testbench.v
+L0 5
+R8
+r1
+!s85 0
+31
+R13
+R14
+R11
+!s101 -O0
+o-O0

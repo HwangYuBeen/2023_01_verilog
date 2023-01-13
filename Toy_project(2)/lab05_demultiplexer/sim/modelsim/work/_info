@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\2023winter_vacation\Toy_project(2)\lab05_demultiplexer\sim\modelsim
+vdemultiplexer
+!i10b 1
+Z1 !s100 VV?=>YAfz?6JDP;=2ehid3
+Z2 I0nRK6h@Fa^2d3?IIKeW101
+Z3 VC^:NOcBHl3^0ICmzUi2kN3
+Z4 dC:\2023winter_vacation\Toy_project(2)\lab05_demultiplexer\sim\modelsim
+w1672816120
+Z5 8../../src/rtl/demultiplexer.v
+Z6 F../../src/rtl/demultiplexer.v
+L0 1
+Z7 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z8 !s108 1672816129.340000
+Z9 !s107 ../../testbench/testbench.v|../../src/rtl/demultiplexer.v|
+Z10 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+vtestbench
+!i10b 1
+Z11 !s100 U_b:3`iVhd:8[Yzj3]OkN0
+Z12 I>iJ67m>TN@jlVV[OJmFi_2
+Z13 VhGfW:390DM[oDMzegDH9`2
+R4
+Z14 w1672815524
+Z15 8../../testbench/testbench.v
+Z16 F../../testbench/testbench.v
+L0 5
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+o-O0

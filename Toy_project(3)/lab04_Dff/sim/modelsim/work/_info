@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\2023winter_vacation\Toy_project(3)\lab04_Dff\sim\modelsim
+vDff
+!i10b 1
+Z1 !s100 :RUOdzgVfOm2b3RUId@?V3
+Z2 IW`A`;[:h2iN3IjjK9zgEQ1
+Z3 VhDjgdc89]cO:z?PDL_K`d0
+Z4 dC:\2023winter_vacation\Toy_project(3)\lab04_Dff\sim\modelsim
+w1673239174
+Z5 8../../src/rtl/Dff.v
+Z6 F../../src/rtl/Dff.v
+L0 1
+Z7 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z8 !s108 1673240502.043000
+Z9 !s107 ../../testbench/testbench.v|../../src/rtl/Dff.v|
+Z10 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+n@dff
+vtestbench
+!i10b 1
+Z11 !s100 7T69Bhn6I1nFThl[1J6=Z2
+Z12 IXQAgJP7TFCfmO@oR0IK@c3
+Z13 VhGfW:390DM[oDMzegDH9`2
+R4
+Z14 w1673238829
+Z15 8../../testbench/testbench.v
+Z16 F../../testbench/testbench.v
+L0 5
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+o-O0

@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\2023winter_vacation\Toy_project(2)\lab09_half_subtractor\sim\modelsim
+vhalf_subtractor
+!i10b 1
+Z1 !s100 N9T``;KO@IcaM=b`4Q`E:0
+Z2 I>K;_kD<`<O3lCe1732XQe2
+Z3 V4QCFLbCdcBj36J9c>YMOL1
+Z4 dC:\2023winter_vacation\Toy_project(2)\lab09_half_subtractor\sim\modelsim
+w1672889058
+Z5 8../../src/rtl/half_subtractor.v
+Z6 F../../src/rtl/half_subtractor.v
+L0 1
+Z7 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z8 !s108 1672895926.115000
+Z9 !s107 ../../testbench/testbench.v|../../src/rtl/half_subtractor.v|
+Z10 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+vtestbench
+!i10b 1
+Z11 !s100 AQizP]be4=TR3=ABRKfZ;1
+Z12 I76kf:=dB^SdUj6>:R4?3:1
+Z13 VhGfW:390DM[oDMzegDH9`2
+R4
+Z14 w1672888344
+Z15 8../../testbench/testbench.v
+Z16 F../../testbench/testbench.v
+L0 5
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+o-O0

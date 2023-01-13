@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\2023winter_vacation\Toy_project(1)\lab02_2input_NAND\sim\modelsim
+vNAND_gate
+!i10b 1
+!s100 JY9>`l4RNT1hU<JHFJ7k`0
+ISAClczAjja2?4PI3eH]1R1
+Vb1aZ<zf@Z4>2JG]m[LhDF1
+Z1 dC:\2023winter_vacation\Toy_project(1)\lab02_2input_NAND\sim\modelsim
+w1672637703
+8../../src/rtl/NAND_gate.v
+F../../src/rtl/NAND_gate.v
+L0 18
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z3 !s108 1672637732.067000
+Z4 !s107 ../../testbench/testbench.v|../../src/rtl/NAND_gate.v|
+Z5 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+n@n@a@n@d_gate
+vtestbench
+!i10b 1
+!s100 >IK2EUm][9Ja>fb5fe7M`2
+I6zR?Z7B1cYGalVmRSA<;l3
+VhGfW:390DM[oDMzegDH9`2
+R1
+w1672631404
+8../../testbench/testbench.v
+F../../testbench/testbench.v
+L0 5
+R2
+r1
+!s85 0
+31
+R3
+R4
+R5
+!s101 -O0
+o-O0
