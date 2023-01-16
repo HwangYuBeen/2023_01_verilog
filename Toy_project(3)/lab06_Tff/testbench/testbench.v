@@ -25,19 +25,19 @@ module testbench();
     //Q = 1'b0;
     //clk = 1'b0;
 
-    #(`T_CLK *5) T = 1'b1;
+    #(`T_CLK *5.1) T = 1'b1;
       //           Q = 1'b0;
                 // clk = 1'b0;   
 
-    #(`T_CLK *5) T = 1'b0;
+    #(`T_CLK *5.1) T = 1'b0;
         //         Q = 1'b1;
                //  clk = 1'b1;
 
-    #(`T_CLK *5) T = 1'b1;
+    #(`T_CLK *5.1) T = 1'b1;
           //       Q = 1'b1;
                //  clk = 1'b1;
 
-		#(`T_CLK *5) $stop;
+		#(`T_CLK *5.1) $stop;
 
     end
 	

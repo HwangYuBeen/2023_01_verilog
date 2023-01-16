@@ -1,4 +1,4 @@
-rmodule parity (
+module parity (
     din0,
     //din0[1],
     //din0[2],
@@ -14,7 +14,7 @@ rmodule parity (
   output even_out;
   output odd_out;
 
-assign even_out = ~(din0[0] ^ din0[1] ^ din0[2] ^ din0[3]);
-assign odd_out = (din0[0] ^ din0[1] ^ din0[2] ^ din0[3]);
+assign even_out = (din0[0] ^ din0[1] ^ din0[2] ^ din0[3]);
+assign odd_out = ~(din0[0] ^ din0[1] ^ din0[2] ^ din0[3]);
 
 endmodule

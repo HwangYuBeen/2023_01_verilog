@@ -4,26 +4,25 @@ K3
 cModel Technology
 Z0 dC:\2023winter_vacation\Toy_project(2)\lab04_multiplexer\sim\modelsim
 vmultiplexer
-Z1 !s100 YCSgUne;KL;hTR_U^=5J`2
-Z2 I<SRobzefK]E2icdLaE6kh1
-Z3 V8@[Se04i=@59=n=iZ=:c;0
+!i10b 1
+Z1 !s100 DDJ>L[UQdQZM[99LCdgig0
+Z2 IV9_iznj1dYOL5H6MK?@>Z1
+Z3 Vo11lCK=?C[T^fTkUA0:@41
 Z4 dC:\2023winter_vacation\Toy_project(2)\lab04_multiplexer\sim\modelsim
-Z5 w1672811719
+Z5 w1673834616
 Z6 8../../src/rtl/multiplexer.v
 Z7 F../../src/rtl/multiplexer.v
 L0 1
 Z8 OV;L;10.1d;51
 r1
+!s85 0
 31
-Z9 !s108 1672811962.519000
+Z9 !s108 1673834648.496000
 Z10 !s107 ../../testbench/testbench.v|../../src/rtl/multiplexer.v|
 Z11 !s90 -reportprogress|300|-f|run.f|
-o-O0
-!i10b 1
-!s85 0
 !s101 -O0
+o-O0
 vmuxtiplexer
-!i10b 1
 Z12 !s100 X6`]NTz4klGLXA^MUPeYZ0
 Z13 IA4zN`FdJS?E8K[SXhL^;T0
 Z14 V[cRB^m<`hD3f0TSDi:CdC2
@@ -34,29 +33,30 @@ R7
 L0 1
 R8
 r1
-!s85 0
 31
-Z16 !s108 1672812426.566000
+Z16 !s108 1673834526.880000
 Z17 !s107 ../../testbench/testbench.v|../../src/rtl/multiplexer.v|
 R11
-!s101 -O0
 o-O0
+!i10b 1
+!s85 0
+!s101 -O0
 vtestbench
 !i10b 1
-!s100 =<Hce4VZ6A?OS8jYGVk3R1
-IUDgF:cEC1@FkMcE_W?RhF3
-Z18 VhGfW:390DM[oDMzegDH9`2
+Z18 !s100 Rjl;zkKnOR6>4`2k0W?c32
+Z19 IK6Oc;ROFa4Yl5J62j74e_1
+Z20 VhGfW:390DM[oDMzegDH9`2
 R4
-w1672812419
-Z19 8../../testbench/testbench.v
-Z20 F../../testbench/testbench.v
+Z21 w1673834576
+Z22 8../../testbench/testbench.v
+Z23 F../../testbench/testbench.v
 L0 5
 R8
 r1
 !s85 0
 31
-R16
-R17
+R9
+R10
 R11
 !s101 -O0
 o-O0

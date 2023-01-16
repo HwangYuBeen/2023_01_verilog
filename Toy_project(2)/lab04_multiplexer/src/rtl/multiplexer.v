@@ -1,4 +1,4 @@
-module muxtiplexer (
+module multiplexer (
     mux_in, 
     mux_signal,
     mux_out

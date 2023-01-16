@@ -14,17 +14,16 @@ module testbench();
 		mux_in = 4'b0001;
 
         #(`T_CLK *3) mux_signal = 2'b10;
-		             mux_in = 4'b1000;		
+		                 mux_in = 4'b1000;		
 
         #(`T_CLK *3) mux_signal = 2'b01;
-					 mux_in = 4'b0010;
-
+					           mux_in = 4'b0010;
 
         #(`T_CLK *3) mux_signal = 2'b10;
-		             mux_in = 4'b1010;
+		                 mux_in = 4'b1010;
 		
         #(`T_CLK *3) mux_signal = 2'b11;
-		             mux_in = 4'b0100;
+		                 mux_in = 4'b0100;
 
 		#(`T_CLK) $stop;
 
