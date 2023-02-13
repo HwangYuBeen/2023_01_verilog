@@ -22,7 +22,7 @@ module Dff (
     else begin
       Q <= D;
     end
-  end
+  end`
 
   assign Q_bar = ~Q;
 

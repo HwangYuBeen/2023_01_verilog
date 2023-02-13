@@ -1,0 +1,100 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\2023winter_vacation\Toy_project(5)\lab05_twos_complement_subtractor\sim\modelsim
+vfull_adder
+Z1 I`aMNjmU>FBRz2g33GG:IU0
+Z2 VIAd5g?Ub`3j?0oEo22N5Y1
+Z3 dC:\2023winter_vacation\Toy_project(5)\lab05_twos_complement_subtractor\sim\modelsim
+Z4 w1674404818
+Z5 8../../src/rtl/twos_complement_subtractor.v
+Z6 F../../src/rtl/twos_complement_subtractor.v
+L0 1
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s108 1674404823.286000
+Z9 !s107 ../../testbench/testbench.v|../../src/rtl/twos_complement_subtractor.v|
+Z10 !s90 -reportprogress|300|-f|run.f|
+o-O0
+Z11 !s100 =<=?4^dQ?XM`ZDJb_R5mP2
+!i10b 1
+!s85 0
+!s101 -O0
+vfull_subtractor1
+!i10b 1
+Z12 !s100 kGCAOh<A0e2l;B26D[><12
+Z13 IGMnNWz66S^aToFzO;5bG41
+Z14 VHO[ddnkCRe9EoOfQfZ5jI3
+R3
+Z15 w1674405629
+R5
+R6
+L0 18
+R7
+r1
+!s85 0
+31
+Z16 !s108 1674405633.957000
+Z17 !s107 ../../testbench/testbench.v|../../src/rtl/twos_complement_subtractor.v|
+R10
+!s101 -O0
+o-O0
+vhalf_subtractor
+!i10b 1
+!s100 aW8aaQ:IY>YZ9@e:oQ9Ri1
+Iz_HDPnnijSO2<cno>kkNo1
+Z18 V5lWXD8^Q2I<Y8ziShWPDA2
+R3
+R15
+R5
+R6
+L0 1
+R7
+r1
+!s85 0
+31
+R16
+R17
+R10
+!s101 -O0
+o-O0
+vripple_carry_subtractor_4bit
+!i10b 1
+Z19 !s100 XBNLCEJNNzK?Ml;>77P:R0
+Z20 ICZk<0jYg_;aQNJCWl8UPE1
+Z21 V[ZTfUhX_A?LEI=4XQ_kFW0
+R3
+R15
+R5
+R6
+L0 55
+R7
+r1
+!s85 0
+31
+R16
+R17
+R10
+!s101 -O0
+o-O0
+vtestbench
+!i10b 1
+Z22 !s100 [<fn;lWoD305_hDb5b7>]1
+Z23 IBM4>[g<;YQATBOL=d7mSW0
+Z24 VhGfW:390DM[oDMzegDH9`2
+R3
+Z25 w1674405481
+Z26 8../../testbench/testbench.v
+Z27 F../../testbench/testbench.v
+L0 5
+R7
+r1
+!s85 0
+31
+R16
+R17
+R10
+!s101 -O0
+o-O0

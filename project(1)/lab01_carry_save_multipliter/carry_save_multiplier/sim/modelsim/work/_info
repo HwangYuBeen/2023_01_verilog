@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\2023winter_vacation\project(1)\lab01_carry_save_multipliter\carry_save_multiplier\sim\modelsim
+vcarry_save_multiplier
+!i10b 1
+!s100 1DbM?5a7E3KGPmRV5K;mD0
+IlzJ:dXOfZH>b4PShm0kom3
+VmHEAmSETX]KK;fnJKlh[g1
+Z1 dC:\2023winter_vacation\project(1)\lab01_carry_save_multipliter\carry_save_multiplier\sim\modelsim
+w1675308870
+8../../src/rtl/carry_save_multiplier.v
+F../../src/rtl/carry_save_multiplier.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z3 !s108 1675308876.266000
+Z4 !s107 ../../testbench/testbench.v|../../src/rtl/carry_save_multiplier.v|
+Z5 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+vtestbench
+!i10b 1
+Z6 !s100 lgALUB=OdQQbM;TN1TX?K0
+Z7 IBhnEeY32MUeIkjZ412]<a1
+Z8 VhGfW:390DM[oDMzegDH9`2
+R1
+Z9 w1675308505
+Z10 8../../testbench/testbench.v
+Z11 F../../testbench/testbench.v
+L0 3
+R2
+r1
+!s85 0
+31
+R3
+R4
+R5
+!s101 -O0
+o-O0

@@ -1,66 +1,195 @@
-module meely_machine (
-  clk,
-  n_rst,
-  c_state,
-  n_state,
-  din,
-  dout
-); 
+module half_adder (
+    A,
+    B,
+    sum,
+    c_out
+);
 
-input clk;
-input n_rst;
-input din;
-output dout;
-output [1:0] c_state;
-output [1:0] n_state;
-reg dout;
-reg [1:0] c_state;
-reg [1:0] n_state;
+  input A;
+  input B;
+  output sum;
+  output c_out;
 
-parameter S_0 = 2'h0;
-parameter S_1 = 2'h1;
-parameter S_2 = 2'h2;
-parameter S_3 = 2'h3;
-parameter S_4 = 2'h4;
+  assign c_out = A & B;
+  assign sum = A ^ B;
 
-always @ (posedge clk or negedge n_rst)
- if(!n_rst)
-  c_state <= S_0;
- else
-  c_state <= n_state;
+endmodule
 
-always @ (c_state or din)
- case (c_state)
-  S_0: begin
-    n_state = (din == 1'b1)? S_3 : S_1;
-    dout = 1'b0;
-  end
+module full_adder1 (
+    A,
+    B,
+    sum,
+    c_out,
+    c_in,
+    haC0,
+    haC1,
+    haS0
+);
 
-  S_1: begin
-    n_state = (din == 1'b1)? S_2 : S_4;
-    dout = 1'b0;
-  end
+  input A;
+  input B;
+  input c_in;
+  output sum;
+  output c_out;
+  output haC0, haC1, haS0;
+  wire haC0, haC1, haS0;
 
-  S_2: begin
-    n_state = (din == 1'b1)? S_0 : S_0;
-    dout = (din == 1'b1)? 1'b1 : 1'b0;
-  end
+  half_adder u_half_adder0 (
+    .A(A),
+    .B(B),
+    .sum(haS0),
+    .c_out(haC0)
+  );
 
-  S_3: begin
-    n_state = (din == 1'b1)? S_4 : S_4;
-    dout = 1'b0;
-  end
+  half_adder u_half_adder1 (
+    .A(haS0),
+    .B(c_in),
+    .sum(sum),
+    .c_out(haC1)
+  );
 
-  S_4: begin
-    n_state = (din == 1'b1)? S_0 : S_0;
-    dout = 1'b0;
-  end
+assign c_out = haC0 | haC1;
 
-   default: begin
-    n_state = S_0;
-    dout = 1'b0;
-  end
+endmodule 
 
- endcase
+module ripple_carry_adder_4bit(
+  A,
+  B,
+  c_in,
+  c_out,
+  sum,
+  C0,
+  C1,
+  C2
+);
+
+ input [3:0] A;
+ input [3:0] B;
+ input c_in;
+ output c_out;
+ output [3:0] sum;
+ output C0, C1, C2;
+ wire C0, C1, C2;
+
+ full_adder1 rca4_fa0(
+  .A(A[0]),
+  .B(B[0]),
+  .c_in(c_in),
+  .c_out(C0),
+  .sum(sum[0])
+ );
+
+ full_adder1 rca4_fa1(
+  .A(A[1]),
+  .B(B[1]),
+  .c_in(C0),
+  .c_out(C1),
+  .sum(sum[1])
+ );
+
+ full_adder1 rca4_fa2(
+  .A(A[2]),
+  .B(B[2]),
+  .c_in(C1),
+  .c_out(C2),
+  .sum(sum[2])
+ );
+
+ full_adder1 rca4_fa3(
+  .A(A[3]),
+  .B(B[3]),
+  .c_in(C2),
+  .c_out(c_out),
+  .sum(sum[3])
+ );
+
+endmodule
+
+module ripple_carry_adder_32bit ( 
+  A,
+  B,
+  c_in,
+  c_out,
+  sum,
+  C0,
+  C1,
+  C2,
+  C3,
+  C4,
+  C5,
+  C6
+);
+
+ input [31:0] A;
+ input [31:0] B;
+ input c_in;
+ output c_out;
+ output [31:0] sum;
+ output C0, C1, C2, C3, C4, C5, C6;
+ wire C0, C1, C2, C3, C4, C5, C6;
+
+ripple_carry_adder_4bit rca32_rca4_0 (
+  .A(A[3:0]),
+  .B(B[3:0]),
+  .c_in(c_in),
+  .c_out(C0),
+  .sum(sum[3:0])
+);
+
+ripple_carry_adder_4bit rca32_rca4_1 (
+  .A(A[7:4]),
+  .B(B[7:4]),
+  .c_in(C0),
+  .c_out(C1),
+  .sum(sum[7:4])
+);
+
+ripple_carry_adder_4bit rca32_rca4_2 (
+  .A(A[11:8]),
+  .B(B[11:8]),
+  .c_in(C1),
+  .c_out(C2),
+  .sum(sum[11:8])
+);
+
+ripple_carry_adder_4bit rca32_rca4_3 (
+  .A(A[15:12]),
+  .B(B[15:12]),
+  .c_in(C2),
+  .c_out(C3),
+  .sum(sum[15:12])
+);
+
+ripple_carry_adder_4bit rca32_rca4_4 (
+  .A(A[19:16]),
+  .B(B[19:16]),
+  .c_in(C3),
+  .c_out(C4),
+  .sum(sum[19:16])
+);
+
+ripple_carry_adder_4bit rca32_rca4_5 (
+  .A(A[23:20]),
+  .B(B[23:20]),
+  .c_in(C4),
+  .c_out(C5),
+  .sum(sum[23:20])
+);
+
+ripple_carry_adder_4bit rca32_rca4_6 (
+  .A(A[27:24]),
+  .B(B[27:24]),
+  .c_in(C5),
+  .c_out(C6),
+  .sum(sum[27:24])
+);
+
+ripple_carry_adder_4bit rca32_rca4_7 (
+  .A(A[31:28]),
+  .B(B[31:28]),
+  .c_in(C6),
+  .c_out(c_out),
+  .sum(sum[31:28])
+);
 
 endmodule

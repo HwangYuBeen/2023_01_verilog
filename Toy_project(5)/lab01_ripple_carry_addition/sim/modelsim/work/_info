@@ -1,0 +1,100 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\2023winter_vacation\Toy_project(5)\lab01_ripple_carry_addition\sim\modelsim
+vfull_adder1
+!i10b 1
+Z1 !s100 3M^`o73`>OfzY3_6m47m^0
+Z2 IJ=`L71ah`KfTf?H3X9BQ>0
+Z3 V2Zl>[9ADV2:coUJXRNL1J0
+Z4 dC:\2023winter_vacation\Toy_project(5)\lab01_ripple_carry_addition\sim\modelsim
+Z5 w1674400194
+Z6 8../../src/rtl/ripple_carry_addition.v
+Z7 F../../src/rtl/ripple_carry_addition.v
+L0 18
+Z8 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z9 !s108 1674400240.015000
+Z10 !s107 ../../testbench/testbench.v|../../src/rtl/ripple_carry_addition.v|
+Z11 !s90 -reportprogress|300|-f|run.f|
+!s101 -O0
+o-O0
+vhalf_adder
+!i10b 1
+Z12 !s100 hT[2MTl=K93=0KYAFIce90
+Z13 IAdSeG7[hg9e@W2]ZzgZW33
+Z14 VU436cHUfY=JPI6LCEcf3B2
+R4
+R5
+R6
+R7
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vripple_carry_adder_32bit
+!i10b 1
+!s100 Ua?U<aA^Y>TKhX^Y@=2:T1
+IcIh3QcfIaBK@:BnaVY2JZ0
+Z15 VI=W57JB=P3NZ5]gO:29bE0
+R4
+R5
+R6
+R7
+Z16 L0 108
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vripple_carry_adder_4bit
+!i10b 1
+Z17 !s100 lb0Z2V]BOXlP6Qmg`I3;F2
+Z18 IRIVTP2;ni6a?=RPG=<O:03
+Z19 V6K:1H1@A:hd21G?:[K:Eb1
+R4
+R5
+R6
+R7
+L0 55
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
+vtestbench
+!i10b 1
+Z20 !s100 =Ka^F3SRDAVGRh98U=lGN3
+Z21 IohafGInS@b4M0Q>:4H2lO2
+Z22 VhGfW:390DM[oDMzegDH9`2
+R4
+w1674400200
+Z23 8../../testbench/testbench.v
+Z24 F../../testbench/testbench.v
+L0 5
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!s101 -O0
+o-O0
