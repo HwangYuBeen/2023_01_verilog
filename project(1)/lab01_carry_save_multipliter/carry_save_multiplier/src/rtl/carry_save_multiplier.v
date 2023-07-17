@@ -33,7 +33,7 @@ module carry_save_multiplier(
 
 always @(posedge clk or negedge n_rst)
   begin
-    if(!n_rst) 
+    if(~n_rst) 
     begin
       a_m <= 4'h0;
       b_m <= 4'h0;

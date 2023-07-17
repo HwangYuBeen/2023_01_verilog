@@ -4,11 +4,7 @@
 
 module testbench();
 
-
     reg [3:0] din0;
-    //reg [3:0] din0[1];
-    //reg [3:0] din0[2];
-    //reg [3:0] din0[3];
 	wire even_out;
 	wire odd_out;
 
@@ -40,9 +36,6 @@ module testbench();
 	
     parity u_parity (
       .din0(din0),
-      //.din0[1](din0[1]),
-      //.din0[2](din0[2]),
-      //.din0[3](din0[3]),
 	  .even_out(even_out),
 	  .odd_out(odd_out)
     );
